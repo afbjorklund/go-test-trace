@@ -1,0 +1,43 @@
+=== RUN   TestVersionCommand
+--- PASS: TestVersionCommand (0.00s)
+=== RUN   TestTitleFlag
+Error: ERROR: missing ≪ stdin ≫ pipe
+--- PASS: TestTitleFlag (0.00s)
+=== RUN   TestTitleFlagIfMissingValue
+Error: flag needs an argument: --title
+--- PASS: TestTitleFlagIfMissingValue (0.00s)
+=== RUN   TestSizeFlag
+Error: ERROR: missing ≪ stdin ≫ pipe
+--- PASS: TestSizeFlag (0.00s)
+=== RUN   TestSizeFlagWithFullDimensions
+Error: ERROR: missing ≪ stdin ≫ pipe
+--- PASS: TestSizeFlagWithFullDimensions (0.00s)
+=== RUN   TestSizeFlagIfMissingValue
+Error: flag needs an argument: --size
+--- PASS: TestSizeFlagIfMissingValue (0.00s)
+=== RUN   TestGroupSizeFlag
+Error: ERROR: missing ≪ stdin ≫ pipe
+--- PASS: TestGroupSizeFlag (0.00s)
+=== RUN   TestGroupSizeFlagIfMissingValue
+Error: flag needs an argument: --groupSize
+--- PASS: TestGroupSizeFlagIfMissingValue (0.00s)
+=== RUN   TestGroupOutputFlag
+Error: ERROR: missing ≪ stdin ≫ pipe
+--- PASS: TestGroupOutputFlag (0.00s)
+=== RUN   TestGroupOutputFlagIfMissingValue
+Error: flag needs an argument: --output
+--- PASS: TestGroupOutputFlagIfMissingValue (0.00s)
+=== RUN   TestReadTestDataFromStdIn
+--- PASS: TestReadTestDataFromStdIn (0.00s)
+=== RUN   TestGenerateReport
+--- PASS: TestGenerateReport (0.00s)
+=== RUN   TestParseSizeFlagIfValueIsNotInteger
+--- PASS: TestParseSizeFlagIfValueIsNotInteger (0.00s)
+=== RUN   TestParseSizeFlagIfWidthValueIsNotInteger
+--- PASS: TestParseSizeFlagIfWidthValueIsNotInteger (0.00s)
+=== RUN   TestParseSizeFlagIfHeightValueIsNotInteger
+--- PASS: TestParseSizeFlagIfHeightValueIsNotInteger (0.00s)
+=== RUN   TestParseSizeFlagIfMalformedSize
+--- PASS: TestParseSizeFlagIfMalformedSize (0.00s)
+PASS
+ok	github.com/vakenbolt/go-test-report	0.008s

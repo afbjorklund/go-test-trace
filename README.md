@@ -4,6 +4,10 @@ convert go test report JSON into chrome tracing JSON
 
 `go test -json | go-test-trace`
 
+Example from github.com/vakenbolt/go-test-report:
+
+![test trace](test_trace.png)
+
 ### Trace Format
 
 The Trace Event Format is the trace data representation that is processed by the Trace Viewer application.

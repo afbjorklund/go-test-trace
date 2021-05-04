@@ -1,0 +1,76 @@
+{"Time":"2021-05-03T22:04:47.361036763+02:00","Action":"run","Package":"github.com/vakenbolt/go-test-report","Test":"TestVersionCommand"}
+{"Time":"2021-05-03T22:04:47.361197126+02:00","Action":"output","Package":"github.com/vakenbolt/go-test-report","Test":"TestVersionCommand","Output":"=== RUN   TestVersionCommand\n"}
+{"Time":"2021-05-03T22:04:47.361214303+02:00","Action":"output","Package":"github.com/vakenbolt/go-test-report","Test":"TestVersionCommand","Output":"--- PASS: TestVersionCommand (0.00s)\n"}
+{"Time":"2021-05-03T22:04:47.361220251+02:00","Action":"pass","Package":"github.com/vakenbolt/go-test-report","Test":"TestVersionCommand","Elapsed":0}
+{"Time":"2021-05-03T22:04:47.361226392+02:00","Action":"run","Package":"github.com/vakenbolt/go-test-report","Test":"TestTitleFlag"}
+{"Time":"2021-05-03T22:04:47.361230538+02:00","Action":"output","Package":"github.com/vakenbolt/go-test-report","Test":"TestTitleFlag","Output":"=== RUN   TestTitleFlag\n"}
+{"Time":"2021-05-03T22:04:47.361236519+02:00","Action":"output","Package":"github.com/vakenbolt/go-test-report","Test":"TestTitleFlag","Output":"Error: ERROR: missing ≪ stdin ≫ pipe\n"}
+{"Time":"2021-05-03T22:04:47.361694621+02:00","Action":"output","Package":"github.com/vakenbolt/go-test-report","Test":"TestTitleFlag","Output":"--- PASS: TestTitleFlag (0.00s)\n"}
+{"Time":"2021-05-03T22:04:47.361704615+02:00","Action":"pass","Package":"github.com/vakenbolt/go-test-report","Test":"TestTitleFlag","Elapsed":0}
+{"Time":"2021-05-03T22:04:47.361709573+02:00","Action":"run","Package":"github.com/vakenbolt/go-test-report","Test":"TestTitleFlagIfMissingValue"}
+{"Time":"2021-05-03T22:04:47.361713651+02:00","Action":"output","Package":"github.com/vakenbolt/go-test-report","Test":"TestTitleFlagIfMissingValue","Output":"=== RUN   TestTitleFlagIfMissingValue\n"}
+{"Time":"2021-05-03T22:04:47.361758325+02:00","Action":"output","Package":"github.com/vakenbolt/go-test-report","Test":"TestTitleFlagIfMissingValue","Output":"Error: flag needs an argument: --title\n"}
+{"Time":"2021-05-03T22:04:47.362128353+02:00","Action":"output","Package":"github.com/vakenbolt/go-test-report","Test":"TestTitleFlagIfMissingValue","Output":"--- PASS: TestTitleFlagIfMissingValue (0.00s)\n"}
+{"Time":"2021-05-03T22:04:47.362148861+02:00","Action":"pass","Package":"github.com/vakenbolt/go-test-report","Test":"TestTitleFlagIfMissingValue","Elapsed":0}
+{"Time":"2021-05-03T22:04:47.362155545+02:00","Action":"run","Package":"github.com/vakenbolt/go-test-report","Test":"TestSizeFlag"}
+{"Time":"2021-05-03T22:04:47.362160209+02:00","Action":"output","Package":"github.com/vakenbolt/go-test-report","Test":"TestSizeFlag","Output":"=== RUN   TestSizeFlag\n"}
+{"Time":"2021-05-03T22:04:47.362225278+02:00","Action":"output","Package":"github.com/vakenbolt/go-test-report","Test":"TestSizeFlag","Output":"Error: ERROR: missing ≪ stdin ≫ pipe\n"}
+{"Time":"2021-05-03T22:04:47.362524998+02:00","Action":"output","Package":"github.com/vakenbolt/go-test-report","Test":"TestSizeFlag","Output":"--- PASS: TestSizeFlag (0.00s)\n"}
+{"Time":"2021-05-03T22:04:47.362536305+02:00","Action":"pass","Package":"github.com/vakenbolt/go-test-report","Test":"TestSizeFlag","Elapsed":0}
+{"Time":"2021-05-03T22:04:47.362542244+02:00","Action":"run","Package":"github.com/vakenbolt/go-test-report","Test":"TestSizeFlagWithFullDimensions"}
+{"Time":"2021-05-03T22:04:47.362546695+02:00","Action":"output","Package":"github.com/vakenbolt/go-test-report","Test":"TestSizeFlagWithFullDimensions","Output":"=== RUN   TestSizeFlagWithFullDimensions\n"}
+{"Time":"2021-05-03T22:04:47.362620449+02:00","Action":"output","Package":"github.com/vakenbolt/go-test-report","Test":"TestSizeFlagWithFullDimensions","Output":"Error: ERROR: missing ≪ stdin ≫ pipe\n"}
+{"Time":"2021-05-03T22:04:47.363018339+02:00","Action":"output","Package":"github.com/vakenbolt/go-test-report","Test":"TestSizeFlagWithFullDimensions","Output":"--- PASS: TestSizeFlagWithFullDimensions (0.00s)\n"}
+{"Time":"2021-05-03T22:04:47.36303054+02:00","Action":"pass","Package":"github.com/vakenbolt/go-test-report","Test":"TestSizeFlagWithFullDimensions","Elapsed":0}
+{"Time":"2021-05-03T22:04:47.363043287+02:00","Action":"run","Package":"github.com/vakenbolt/go-test-report","Test":"TestSizeFlagIfMissingValue"}
+{"Time":"2021-05-03T22:04:47.36304834+02:00","Action":"output","Package":"github.com/vakenbolt/go-test-report","Test":"TestSizeFlagIfMissingValue","Output":"=== RUN   TestSizeFlagIfMissingValue\n"}
+{"Time":"2021-05-03T22:04:47.363123741+02:00","Action":"output","Package":"github.com/vakenbolt/go-test-report","Test":"TestSizeFlagIfMissingValue","Output":"Error: flag needs an argument: --size\n"}
+{"Time":"2021-05-03T22:04:47.363413704+02:00","Action":"output","Package":"github.com/vakenbolt/go-test-report","Test":"TestSizeFlagIfMissingValue","Output":"--- PASS: TestSizeFlagIfMissingValue (0.00s)\n"}
+{"Time":"2021-05-03T22:04:47.363424871+02:00","Action":"pass","Package":"github.com/vakenbolt/go-test-report","Test":"TestSizeFlagIfMissingValue","Elapsed":0}
+{"Time":"2021-05-03T22:04:47.363430119+02:00","Action":"run","Package":"github.com/vakenbolt/go-test-report","Test":"TestGroupSizeFlag"}
+{"Time":"2021-05-03T22:04:47.363434474+02:00","Action":"output","Package":"github.com/vakenbolt/go-test-report","Test":"TestGroupSizeFlag","Output":"=== RUN   TestGroupSizeFlag\n"}
+{"Time":"2021-05-03T22:04:47.363461609+02:00","Action":"output","Package":"github.com/vakenbolt/go-test-report","Test":"TestGroupSizeFlag","Output":"Error: ERROR: missing ≪ stdin ≫ pipe\n"}
+{"Time":"2021-05-03T22:04:47.363722342+02:00","Action":"output","Package":"github.com/vakenbolt/go-test-report","Test":"TestGroupSizeFlag","Output":"--- PASS: TestGroupSizeFlag (0.00s)\n"}
+{"Time":"2021-05-03T22:04:47.363729732+02:00","Action":"pass","Package":"github.com/vakenbolt/go-test-report","Test":"TestGroupSizeFlag","Elapsed":0}
+{"Time":"2021-05-03T22:04:47.363734126+02:00","Action":"run","Package":"github.com/vakenbolt/go-test-report","Test":"TestGroupSizeFlagIfMissingValue"}
+{"Time":"2021-05-03T22:04:47.363738148+02:00","Action":"output","Package":"github.com/vakenbolt/go-test-report","Test":"TestGroupSizeFlagIfMissingValue","Output":"=== RUN   TestGroupSizeFlagIfMissingValue\n"}
+{"Time":"2021-05-03T22:04:47.36376417+02:00","Action":"output","Package":"github.com/vakenbolt/go-test-report","Test":"TestGroupSizeFlagIfMissingValue","Output":"Error: flag needs an argument: --groupSize\n"}
+{"Time":"2021-05-03T22:04:47.364066275+02:00","Action":"output","Package":"github.com/vakenbolt/go-test-report","Test":"TestGroupSizeFlagIfMissingValue","Output":"--- PASS: TestGroupSizeFlagIfMissingValue (0.00s)\n"}
+{"Time":"2021-05-03T22:04:47.36407371+02:00","Action":"pass","Package":"github.com/vakenbolt/go-test-report","Test":"TestGroupSizeFlagIfMissingValue","Elapsed":0}
+{"Time":"2021-05-03T22:04:47.364078015+02:00","Action":"run","Package":"github.com/vakenbolt/go-test-report","Test":"TestGroupOutputFlag"}
+{"Time":"2021-05-03T22:04:47.364082063+02:00","Action":"output","Package":"github.com/vakenbolt/go-test-report","Test":"TestGroupOutputFlag","Output":"=== RUN   TestGroupOutputFlag\n"}
+{"Time":"2021-05-03T22:04:47.364112268+02:00","Action":"output","Package":"github.com/vakenbolt/go-test-report","Test":"TestGroupOutputFlag","Output":"Error: ERROR: missing ≪ stdin ≫ pipe\n"}
+{"Time":"2021-05-03T22:04:47.364439147+02:00","Action":"output","Package":"github.com/vakenbolt/go-test-report","Test":"TestGroupOutputFlag","Output":"--- PASS: TestGroupOutputFlag (0.00s)\n"}
+{"Time":"2021-05-03T22:04:47.364454258+02:00","Action":"pass","Package":"github.com/vakenbolt/go-test-report","Test":"TestGroupOutputFlag","Elapsed":0}
+{"Time":"2021-05-03T22:04:47.364460191+02:00","Action":"run","Package":"github.com/vakenbolt/go-test-report","Test":"TestGroupOutputFlagIfMissingValue"}
+{"Time":"2021-05-03T22:04:47.364464618+02:00","Action":"output","Package":"github.com/vakenbolt/go-test-report","Test":"TestGroupOutputFlagIfMissingValue","Output":"=== RUN   TestGroupOutputFlagIfMissingValue\n"}
+{"Time":"2021-05-03T22:04:47.36447131+02:00","Action":"output","Package":"github.com/vakenbolt/go-test-report","Test":"TestGroupOutputFlagIfMissingValue","Output":"Error: flag needs an argument: --output\n"}
+{"Time":"2021-05-03T22:04:47.364801633+02:00","Action":"output","Package":"github.com/vakenbolt/go-test-report","Test":"TestGroupOutputFlagIfMissingValue","Output":"--- PASS: TestGroupOutputFlagIfMissingValue (0.00s)\n"}
+{"Time":"2021-05-03T22:04:47.364815728+02:00","Action":"pass","Package":"github.com/vakenbolt/go-test-report","Test":"TestGroupOutputFlagIfMissingValue","Elapsed":0}
+{"Time":"2021-05-03T22:04:47.364821522+02:00","Action":"run","Package":"github.com/vakenbolt/go-test-report","Test":"TestReadTestDataFromStdIn"}
+{"Time":"2021-05-03T22:04:47.36482614+02:00","Action":"output","Package":"github.com/vakenbolt/go-test-report","Test":"TestReadTestDataFromStdIn","Output":"=== RUN   TestReadTestDataFromStdIn\n"}
+{"Time":"2021-05-03T22:04:47.364971905+02:00","Action":"output","Package":"github.com/vakenbolt/go-test-report","Test":"TestReadTestDataFromStdIn","Output":"--- PASS: TestReadTestDataFromStdIn (0.00s)\n"}
+{"Time":"2021-05-03T22:04:47.364986053+02:00","Action":"pass","Package":"github.com/vakenbolt/go-test-report","Test":"TestReadTestDataFromStdIn","Elapsed":0}
+{"Time":"2021-05-03T22:04:47.364991954+02:00","Action":"run","Package":"github.com/vakenbolt/go-test-report","Test":"TestGenerateReport"}
+{"Time":"2021-05-03T22:04:47.364996444+02:00","Action":"output","Package":"github.com/vakenbolt/go-test-report","Test":"TestGenerateReport","Output":"=== RUN   TestGenerateReport\n"}
+{"Time":"2021-05-03T22:04:47.365773254+02:00","Action":"output","Package":"github.com/vakenbolt/go-test-report","Test":"TestGenerateReport","Output":"--- PASS: TestGenerateReport (0.00s)\n"}
+{"Time":"2021-05-03T22:04:47.365787422+02:00","Action":"pass","Package":"github.com/vakenbolt/go-test-report","Test":"TestGenerateReport","Elapsed":0}
+{"Time":"2021-05-03T22:04:47.365793363+02:00","Action":"run","Package":"github.com/vakenbolt/go-test-report","Test":"TestParseSizeFlagIfValueIsNotInteger"}
+{"Time":"2021-05-03T22:04:47.365797749+02:00","Action":"output","Package":"github.com/vakenbolt/go-test-report","Test":"TestParseSizeFlagIfValueIsNotInteger","Output":"=== RUN   TestParseSizeFlagIfValueIsNotInteger\n"}
+{"Time":"2021-05-03T22:04:47.365805158+02:00","Action":"output","Package":"github.com/vakenbolt/go-test-report","Test":"TestParseSizeFlagIfValueIsNotInteger","Output":"--- PASS: TestParseSizeFlagIfValueIsNotInteger (0.00s)\n"}
+{"Time":"2021-05-03T22:04:47.365812455+02:00","Action":"pass","Package":"github.com/vakenbolt/go-test-report","Test":"TestParseSizeFlagIfValueIsNotInteger","Elapsed":0}
+{"Time":"2021-05-03T22:04:47.365816902+02:00","Action":"run","Package":"github.com/vakenbolt/go-test-report","Test":"TestParseSizeFlagIfWidthValueIsNotInteger"}
+{"Time":"2021-05-03T22:04:47.36582114+02:00","Action":"output","Package":"github.com/vakenbolt/go-test-report","Test":"TestParseSizeFlagIfWidthValueIsNotInteger","Output":"=== RUN   TestParseSizeFlagIfWidthValueIsNotInteger\n"}
+{"Time":"2021-05-03T22:04:47.365826069+02:00","Action":"output","Package":"github.com/vakenbolt/go-test-report","Test":"TestParseSizeFlagIfWidthValueIsNotInteger","Output":"--- PASS: TestParseSizeFlagIfWidthValueIsNotInteger (0.00s)\n"}
+{"Time":"2021-05-03T22:04:47.365832167+02:00","Action":"pass","Package":"github.com/vakenbolt/go-test-report","Test":"TestParseSizeFlagIfWidthValueIsNotInteger","Elapsed":0}
+{"Time":"2021-05-03T22:04:47.365836247+02:00","Action":"run","Package":"github.com/vakenbolt/go-test-report","Test":"TestParseSizeFlagIfHeightValueIsNotInteger"}
+{"Time":"2021-05-03T22:04:47.365840225+02:00","Action":"output","Package":"github.com/vakenbolt/go-test-report","Test":"TestParseSizeFlagIfHeightValueIsNotInteger","Output":"=== RUN   TestParseSizeFlagIfHeightValueIsNotInteger\n"}
+{"Time":"2021-05-03T22:04:47.365844902+02:00","Action":"output","Package":"github.com/vakenbolt/go-test-report","Test":"TestParseSizeFlagIfHeightValueIsNotInteger","Output":"--- PASS: TestParseSizeFlagIfHeightValueIsNotInteger (0.00s)\n"}
+{"Time":"2021-05-03T22:04:47.36585058+02:00","Action":"pass","Package":"github.com/vakenbolt/go-test-report","Test":"TestParseSizeFlagIfHeightValueIsNotInteger","Elapsed":0}
+{"Time":"2021-05-03T22:04:47.365860181+02:00","Action":"run","Package":"github.com/vakenbolt/go-test-report","Test":"TestParseSizeFlagIfMalformedSize"}
+{"Time":"2021-05-03T22:04:47.36586566+02:00","Action":"output","Package":"github.com/vakenbolt/go-test-report","Test":"TestParseSizeFlagIfMalformedSize","Output":"=== RUN   TestParseSizeFlagIfMalformedSize\n"}
+{"Time":"2021-05-03T22:04:47.365872255+02:00","Action":"output","Package":"github.com/vakenbolt/go-test-report","Test":"TestParseSizeFlagIfMalformedSize","Output":"--- PASS: TestParseSizeFlagIfMalformedSize (0.00s)\n"}
+{"Time":"2021-05-03T22:04:47.365876608+02:00","Action":"pass","Package":"github.com/vakenbolt/go-test-report","Test":"TestParseSizeFlagIfMalformedSize","Elapsed":0}
+{"Time":"2021-05-03T22:04:47.36588083+02:00","Action":"output","Package":"github.com/vakenbolt/go-test-report","Output":"PASS\n"}
+{"Time":"2021-05-03T22:04:47.366409555+02:00","Action":"output","Package":"github.com/vakenbolt/go-test-report","Output":"ok  \tgithub.com/vakenbolt/go-test-report\t0.008s\n"}
+{"Time":"2021-05-03T22:04:47.366427037+02:00","Action":"pass","Package":"github.com/vakenbolt/go-test-report","Elapsed":0.008}
