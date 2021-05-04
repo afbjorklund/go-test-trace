@@ -7,13 +7,15 @@ import json
 import datetime
 import dateutil.parser
 
+
 def datetime_parser(json_dict):
-    for (key, value) in json_dict.items():
-        try:
-            json_dict[key] = dateutil.parser.parse(value)
-        except (ValueError, AttributeError, TypeError):
-            pass
-    return json_dict
+  for (key, value) in json_dict.items():
+    try:
+      json_dict[key] = dateutil.parser.parse(value)
+    except (ValueError, AttributeError, TypeError):
+      pass
+  return json_dict
+
 
 package = {}
 start = {}
@@ -33,18 +35,18 @@ with open(report) as tr:
       test = event['Test']
       start[test] = time
       if min is None or time < min:
-         min = time
+        min = time
       if 'Package' in event:
-         pkg = event['Package']
+        pkg = event['Package']
       else:
-         pkg = 'main'
+        pkg = 'main'
       if pkg in package:
-         package[pkg].append(test)
+        package[pkg].append(test)
       else:
-         package[pkg] = [test]
+        package[pkg] = [test]
     elif action == "pass" or action == "fail" or action == "skip":
-      if not 'Test' in event:
-         continue
+      if 'Test' not in event:
+        continue
       test = event['Test']
       end[test] = time
       assert(test in start)
@@ -57,17 +59,17 @@ with open(report) as tr:
 
 events = []
 for pkg in package:
-   tests = package[pkg]
-   tests.sort()
-   for test in tests:
-     if test not in result:
-       continue
-     res = result[test]
-     duration = end[test] - start[test]
-     #print(pkg, test, start[test], end[test], duration)
-     b = int((start[test] - min).total_seconds() * 1e6)
-     e = int((end[test] - min).total_seconds() * 1e6)
-     events.append({"ts": b, "pid": pkg, "tid": test, "ph": "B", "name": test, "cat": res})
-     events.append({"ts": e, "pid": pkg, "tid": test, "ph": "E"})
+  tests = package[pkg]
+  tests.sort()
+  for test in tests:
+    if test not in result:
+      continue
+    res = result[test]
+    duration = end[test] - start[test]
+    # print(pkg, test, start[test], end[test], duration)
+    b = int((start[test] - min).total_seconds() * 1e6)
+    e = int((end[test] - min).total_seconds() * 1e6)
+    events.append({"ts": b, "pid": pkg, "tid": test, "ph": "B", "name": test, "cat": res})
+    events.append({"ts": e, "pid": pkg, "tid": test, "ph": "E"})
 doc = {"displayTimeUnit": "ms", "traceEvents": events}
 print(json.dumps(doc))
