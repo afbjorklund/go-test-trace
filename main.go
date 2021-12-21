@@ -98,6 +98,9 @@ func main() {
 	events := []traceevent{}
 	for p, tests := range pkg {
 		sort.Strings(tests)
+                sort.SliceStable(tests, func(i, j int) bool {
+			return start[tests[i]].Before(*start[tests[j]])
+		})
 		for _, test := range tests {
 			res := result[test]
 			if res == "" {

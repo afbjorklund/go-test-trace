@@ -8,6 +8,9 @@ Example from github.com/vakenbolt/go-test-report:
 
 ![test trace](test_trace.png)
 
+Example:
+[test report.json](test_report.json)
+
 ### Trace Format
 
 The Trace Event Format is the trace data representation that is processed by the Trace Viewer application.
