@@ -29,6 +29,9 @@ The Trace Event Format is the trace data representation that is processed by the
 }
 ```
 
+Example:
+[test trace.json](test_trace.json)
+
 ### Trace Viewer
 
 Trace-Viewer is the javascript frontend for Chrome `about:tracing` and Android systrace.
@@ -41,3 +44,6 @@ It provides rich analysis and visualization capabilities for many types of trace
 ```sh
 $CATAPULT/tracing/bin/trace2html my_trace.json --output=my_trace.html
 ```
+
+Example:
+[test trace.html](test_trace.html)
