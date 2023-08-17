@@ -90,7 +90,7 @@ func main() {
 		case "pause", "cont":
 			continue
 		default:
-			fmt.Printf("Unknown action: %s", action)
+			fmt.Fprintf(os.Stderr, "Unknown action: %s\n", action)
 			continue
 		}
 	}
