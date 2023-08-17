@@ -64,6 +64,8 @@ func main() {
 
 		action := e.Action
 		switch action {
+		case "start":
+			continue
 		case "output":
 			continue
 		case "run":
